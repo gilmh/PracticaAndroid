@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/insertar_menu"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:titleCondensed="menu"
+        android:title="@string/insertar_menu"/>
+
+    <item
+        android:id="@+id/menu_preferencias"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:titleCondensed="preferencias"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/menu_preferencias"/>
+
+</menu>

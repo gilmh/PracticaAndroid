@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InsertarMenus" >
+    
+	<RelativeLayout 
+	    
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin" >
+	   
+	
+	    <TextView
+	        android:id="@+id/txtNombre"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:text="@string/primerPlato_menu" />
+	
+	    <EditText
+	        android:id="@+id/txtPrimerPlato"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/txtNombre"
+	        android:ems="10"
+	        android:inputType="text" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/lbSegundoPlato"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/txtPrimerPlato"
+	        android:text="@string/segundoPlato_menu" />
+	
+	    <EditText
+	        android:id="@+id/txtSegundoPlato"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/lbSegundoPlato"
+	        android:ems="10"
+	        android:inputType="text" />
+	
+	    <TextView
+	        android:id="@+id/lbPostre"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/txtSegundoPlato"
+	        android:text="@string/postre_menu" />
+	
+	    <EditText
+	        android:id="@+id/txtPostre"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/lbPostre"
+	        android:ems="10"
+	        android:inputType="text" />
+	
+	    <TextView
+	        android:id="@+id/lbBebida"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/txtPostre"
+	        android:text="@string/bebida_menu" />
+	
+	    <EditText
+	        android:id="@+id/txtBebidas"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/lbBebida"
+	        android:ems="10"
+	        android:inputType="text" />
+	
+	    <TextView
+	        android:id="@+id/lbPrecio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/txtBebidas"
+	        android:text="@string/precio_menu" />
+	
+	    <EditText
+	        android:id="@+id/txtPrecio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/lbPrecio"
+	        android:ems="10"
+	        android:inputType="number" />
+	
+	    <CheckBox
+	        android:id="@+id/cbAlmuerzo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/txtPrecio"
+	        android:text="@string/checkBox_almuerzo" />
+	
+	    <Button
+	        android:id="@+id/btCancelarMenu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/btAceptarMenu"
+	        android:layout_alignBottom="@+id/btAceptarMenu"
+	        android:layout_toRightOf="@+id/btAceptarMenu"
+	        android:text="@string/boton_cancelar" />
+	
+	    <CheckBox
+	        android:id="@+id/cbComida"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/cbAlmuerzo"
+	        android:layout_alignBottom="@+id/cbAlmuerzo"
+	        android:layout_toRightOf="@+id/cbAlmuerzo"
+	        android:text="@string/checkBox_comida" />
+	
+	    <CheckBox
+	        android:id="@+id/cbCena"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/txtPrecio"
+	        android:layout_toRightOf="@+id/cbComida"
+	        android:text="@string/checkBox_cena" />
+	
+	    <Button
+	        android:id="@+id/btAceptarMenu"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/cbAlmuerzo"
+	        android:layout_marginLeft="14dp"
+	        android:layout_toRightOf="@+id/lbBebida"
+	        android:text="@string/boton_aceptar" />
+	
+	</RelativeLayout>
+</ScrollView>

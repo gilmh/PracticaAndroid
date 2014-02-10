@@ -1,0 +1,31 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Mostrar Menus">
+        <CheckBoxPreference
+            android:key="opcion_ver_almuerzos"
+            android:title="Mostrar almuerzos"
+            android:summary="Ver sólo a los menus de almuerzo" />
+       
+        <CheckBoxPreference
+            android:key="opcion_ver_comidas"
+            android:title="Mostrar comidas"
+            android:summary="Ver sólo a los menus de comidas" />
+        
+        <CheckBoxPreference
+            android:key="opcion_ver_cenas"
+            android:title="Mostrar Cenas"
+            android:summary="Ver sólo a los menus de cenas" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Menus">
+        <ListPreference
+            android:key="opcion_datos"
+            android:title="Ordenar por platos"
+            android:summary="Cómo ordenar los menus"
+            android:dialogTitle="Por primer plato o segundo plato"
+            android:entries="@array/datos"
+            android:entryValues="@array/datos" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lbPrimerPlatoFila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:gravity="center_horizontal|center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbSegundoPlatoFila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center_horizontal|center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbPostreFila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center_horizontal|center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbBebidaFila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center_horizontal|center"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/lbPreciosFila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:gravity="center_horizontal|center" />
+
+</LinearLayout>

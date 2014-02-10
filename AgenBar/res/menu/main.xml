@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/ctx_mapa" 
+        android:title="@string/mapa"  
+        android:showAsAction="always" 
+        android:titleCondensed="mapa"></item>
+    
+    <item android:id="@+id/ctx_acerca_de" 
+        android:title="@string/acerca_de"  
+        android:showAsAction="always" 
+        android:icon="@drawable/ic_about"
+        android:titleCondensed="acerca_de"></item>
+</menu>

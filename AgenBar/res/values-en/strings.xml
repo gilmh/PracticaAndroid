@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgenBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_insertar_bar">Insertar Bar</string>
+    <string name="title_activity_insertar_menus">InsertarMenus</string>
+    <string name="nombre_bar">Nombre</string>
+    <string name="direccion_bar">Direccion</string>
+    <string name="codigoPostal_bar">Codigo Postal</string>
+    <string name="localidad_bar">Localidad</string>
+    <string name="telefono_bar">Telefono</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="primerPlato_menu">Primer Plato</string>
+    <string name="segundoPlato_menu">Segundo Plato</string>
+    <string name="postre_menu">Postre</string>
+    <string name="bebida_menu">Bebida</string>
+    <string name="precio_menu">Precio</string>
+    <string name="checkBox_almuerzo">Almuerzo</string>
+    <string name="checkBox_comida">Comida</string>
+    <string name="checkBox_cena">Cena</string>
+    <string name="checkBox_menuDia">Menu del Dia</string>
+    <string name="tab_insertar">Insertar</string>
+    <string name="tab_bares">Bares</string>
+    <string name="tab_menu">Menu</string>
+    <string name="tab_menu_dia">Menu del Dia</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="mapa">Mapa</string>
+    <string name="sin_contactos">No hay datos</string>
+    <string name="contacto_anadido">Contacto Añadido</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="boton_limpiar">Limpiar</string>
+ 	<string name="menu_contextual_bar">eliminar</string>
+ 	<string name="menu_datos">No hay menus</string>
+ 	<string name="insertar_menu">Menu</string>
+ 	<string name="title_activity_preferencias">Preferencias</string>
+ 	<string name="menu_preferencias">Preferencias</string>
+ 	<string name="acerca_de">AgenBar \n\nAgenda personal de bares para Android\n\n(c) 2013 Hector Gil</string>
+ 	
+</resources>

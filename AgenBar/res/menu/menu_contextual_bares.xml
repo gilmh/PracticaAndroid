@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/ctx_eliminar" 
+        android:title="@string/menu_contextual_bar"  
+        android:showAsAction="always" 
+        android:titleCondensed="eliminar"></item>
+    
+</menu>
